@@ -1,0 +1,59 @@
+body{
+    background: #63d0b6;
+}
+
+.kind_calc{
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.kind{
+    color: green;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+@media screen and (min-width: 500px) {
+    .calculate{
+        width: 100vw;
+        height: 25vh;
+    }
+}
+
+.num{
+    width: 60px;
+    margin: 5px;
+}
+
+.num5{
+    width: 60px;
+    margin: 5px;
+}
+
+.calc_buts__buttons{
+    width: 320px;
+    height: 50px;
+    border: medium dashed green;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.vvod{
+    width: 320px;
+    height: 2em;
+    margin: 5px;
+    padding-right: 0%;
+}
+.calc_buts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.calc_buts__vvod{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
