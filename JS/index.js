@@ -8,6 +8,6 @@ let numbers = document.querySelectorAll('.number'),
 for (let i = 0; i<numbers.length; i++) {
     let number = numbers[i];
     number.addEventListener('click', function (e){
-        console.log('klik');
+        console.log('Клик по кнопке при выборе');
     });
 }
